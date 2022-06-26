@@ -9,4 +9,5 @@ jobs:
         with:
           node-version: "14"
       - run: npm install -g bats
+      - run: ls -la
       - run: bats -v
